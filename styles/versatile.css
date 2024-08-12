@@ -10,22 +10,35 @@
 .miama-font{
     font-family: 'Miama', sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-variation-settings:
+    
+}
+
+*{
+    margin: 0;
 }
 
 .body-color{
     background-color: black;
 }
+/* shared styles */
+.deafult-margin{
+    width: 80%;
+    margin: 0 auto;
+}
+.text-color{
+    color: white;
+}
+
 /* nav styles */
 nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
-    
+    align-items: center;    
+}
+header{
+    background: linear-gradient(rgb(255, 255, 255) 100%);
 }
 .logo{
     font-size: 2rem;
@@ -40,7 +53,8 @@ nav{
     gap: 2rem;
     border: 0.2px solid #ffffff2c;
     border-radius: 50px;
-    padding: 0px 25px 0px 5px;
+    padding: 15px 25px 15px 5px;
+    margin-top: 40px;
 
 }
 .home{
@@ -53,4 +67,115 @@ nav{
     font-size: .9rem;
     font-weight: 600;
 
+}
+
+/* banner styles */
+
+.banner-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.banner-title{
+    font-size: 4.8rem;
+    font-weight: 900;
+    color: white;
+    width: 520px;
+}
+.shape{
+    font-size: 10rem;
+    line-height: 0%;
+   
+}
+.banner-description{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.247);
+    width: 520px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    background-color: #E6533C;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 30px 12px 30px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn-primary-1{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 12px 30px 12px 30px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+.card-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+.circle{
+    font-size: 2rem;
+    color: #E6533C;
+}
+.body-builder{
+    position: relative;
+}
+
+.card-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: .2px solid rgba(219, 219, 219, 0.137);
+    border-radius: 15px;
+    padding: 20px 20px;
+    width: 150px;
+    position: absolute;
+    top: 85%;
+    left: 57%;
+}
+
+.card-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: .2px solid rgba(219, 219, 219, 0.137);
+    border-radius: 15px;
+    padding: 20px 20px;
+    width: 150px;
+    position: absolute;
+    top: 48%;
+    right: 3%;
+}
+.card-2-title{
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+}
+.card-2-description{
+    font-size: .8rem;
+    font-weight: 400;
+    color: white;
 }
