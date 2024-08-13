@@ -38,13 +38,16 @@ nav{
     align-items: center;    
 }
 header{
-    background: linear-gradient(rgb(255, 255, 255) 100%);
+    /* background: linear-gradient(rgb(255, 255, 255) 100%); */
+    background: linear-gradient(to top, rgba(255,255,255,0.15) 20%, rgba(0,0,0,0.15) 80%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 10%, rgba(0,0,0,0.15) 60%);
 }
 .logo{
     font-size: 2rem;
     font-weight: 800;
     font-style: italic;
     color: #E6533C;
+    cursor: pointer;
 }
 .nav-option{
     font-size: .8rem;
@@ -68,6 +71,9 @@ header{
     font-weight: 600;
 
 }
+.ham-burger{
+    display: none;
+}
 
 /* banner styles */
 
@@ -90,11 +96,11 @@ header{
    
 }
 .banner-description{
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.247);
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.349);
     width: 520px;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; 
 }
 .btn-primary{
     background-color: #E6533C;
@@ -178,4 +184,75 @@ header{
     font-size: .8rem;
     font-weight: 400;
     color: white;
+}
+
+/* Responsive */
+
+@media screen and (max-width:576px) {
+    .ham-burger{
+        display: block;
+        font-size: 2rem;
+        color: white;
+    }
+    .nav{
+        margin-top: 50px;
+    }
+    
+    .nav-option{
+        display: none;
+    }
+   
+
+    .banner-container{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    .banner-title{
+        font-size: 3rem;
+        font-weight: 800;
+        color: white;
+        width: 320px;
+
+    }
+
+    .shape{
+        font-size: 6rem;
+        line-height: 0%;
+    }
+
+    .banner-description{
+        font-size: .rem;
+        color: rgba(255, 255, 255, 0.349);
+        width: 340px;
+        margin-top: 20px;
+        margin-bottom: 30px; 
+    }
+
+    .card-1{
+        position: absolute;
+        top: 70%;
+        left: 10%;
+    }
+    
+    .card-2{
+        position: absolute;
+        top: 48%;
+        right: 2%;
+        width: 120px;
+    }
+    
+    .card-2-title{
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: white;
+    }
+    .card-2-description{
+        font-size: .6rem;
+        font-weight: 400;
+        color: white;
+    }
+    .btn-primary-1{
+        margin-left: 5px;
+    }
 }
