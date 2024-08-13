@@ -186,6 +186,78 @@ header{
     color: white;
 }
 
+/* Change your habits style */
+.section-container{
+    margin: 80px auto 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.section-title{
+    font-size: 2.9rem;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.section-description{
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgba(145, 145, 145, 0.575);
+    width: 550px;
+    text-align: center;
+
+    
+}
+.habits-card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+   
+}
+.habits-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.habits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(128, 128, 128, 0.425);
+    width: 190px;
+    height: 190px;
+    border: none;
+    border-radius: 100px;
+}
+
+.habits-image{
+    border: .8px solid rgba(214, 214, 214, 0.377);
+    border-radius: 100px;
+    width: 180px;
+    height: 180px;
+
+}
+
+.habits-card-title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+
+.habits-card-description{
+    font-size: .8rem;
+    font-weight: 400;
+    color: rgba(155, 155, 155, 0.616);
+    width: 230px;
+    text-align: center;
+
+}
 /* Responsive */
 
 @media screen and (max-width:576px) {
@@ -237,7 +309,7 @@ header{
     
     .card-2{
         position: absolute;
-        top: 48%;
+        top: 53%;
         right: 2%;
         width: 120px;
     }
@@ -255,4 +327,28 @@ header{
     .btn-primary-1{
         margin-left: 5px;
     }
+
+/* Change Your Habits Responsive */
+.section-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.section-description{
+    font-size: .8rem;
+    font-weight: 400;
+    color: rgba(145, 145, 145, 0.575);
+    width: 300px;
+    text-align: center;
+}
+.section-container{
+    margin: 20px auto 20px;
+}
+.habits-card-container{
+    flex-direction: column;
+    gap: 40px;
+}
+
 }
