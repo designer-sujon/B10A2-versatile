@@ -258,6 +258,41 @@ header{
     text-align: center;
 
 }
+/* Run an Extra Mile Styles */
+.extra-mile-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 120px;
+    background-color: rgba(189, 189, 189, 0.13);
+    border: none;
+    border-radius: 20px;
+    padding: 30px 50px;
+   
+}
+
+.extra-mile-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: self-start;
+    gap: 20px;
+
+}
+.mile-title{
+    width: 300px;
+    text-align: left;
+}
+
+.mile-description{
+    text-align: left;
+    width: 450px;
+}
+.run-images{
+   border: none;
+   border-radius: 20px;
+}
 /* Responsive */
 
 @media screen and (max-width:576px) {
@@ -349,6 +384,48 @@ header{
 .habits-card-container{
     flex-direction: column;
     gap: 40px;
+}
+
+/* Run an Extra Mile */
+.extra-mile-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(189, 189, 189, 0.13);
+    border: none;
+    border-radius: 20px;
+    padding: 30px 50px;
+   
+}
+
+.extra-mile-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+.mile-title{
+    font-size: 2rem;
+    width: 250px;
+    text-align: left;
+}
+
+.mile-description{
+    text-align: left;
+    width: 450px;
+}
+.run-images{
+   border: none;
+   border-radius: 20px;
+   width: 300px;
+   height: 250px;
+}
+.btn-mile{
+    display: block;
 }
 
 }
