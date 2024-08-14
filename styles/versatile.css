@@ -289,6 +289,17 @@ header{
     text-align: left;
     width: 450px;
 }
+
+.btn-mile{
+    background-color: #E6533C;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 30px 12px 30px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
 .run-images{
    border: none;
    border-radius: 20px;
@@ -296,15 +307,16 @@ header{
 /* Responsive */
 
 @media screen and (max-width:576px) {
+    nav{
+        margin-top: 100px;
+    }
+    
     .ham-burger{
         display: block;
         font-size: 2rem;
         color: white;
     }
-    .nav{
-        margin-top: 50px;
-    }
-    
+   
     .nav-option{
         display: none;
     }
@@ -403,29 +415,27 @@ header{
 .extra-mile-content{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
 
 }
 .mile-title{
     font-size: 2rem;
-    width: 250px;
     text-align: left;
+    width: 280px;
+    
 }
 
 .mile-description{
     text-align: left;
-    width: 450px;
+    width: 300px;
 }
 .run-images{
    border: none;
    border-radius: 20px;
    width: 300px;
    height: 250px;
-}
-.btn-mile{
-    display: block;
 }
 
 }
