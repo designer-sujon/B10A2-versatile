@@ -188,7 +188,7 @@ header{
 
 /* Change your habits style */
 .section-container{
-    margin: 80px auto 50px;
+    margin: 80px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -404,7 +404,7 @@ input, select{
 .btn-bmi{
     position: absolute;
     left: 610px;
-    bottom: -1750px;
+    bottom: -1780px;
 }
 /* Meet Our Team Styles */
 .meet-description{
@@ -486,7 +486,7 @@ input, select{
 .blog-container{
     display: flex;
     gap: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .blog-image{
@@ -522,6 +522,57 @@ input, select{
     width: 350px;
 }
 
+/* Footer Styles */
+.logo-footer{
+    font-size: 3rem;
+
+}
+footer{
+    background-color: rgba(172, 172, 172, 0.11);
+    padding: 50px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.footer-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(167, 167, 167, 0.582);
+    width: 450px;
+    margin-top: 20px;
+}
+
+.get-started-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.get-started-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+li{
+    list-style: none;
+    color: rgb(131, 131, 131);
+    text-align: left;
+}
+hr{
+    background-color: gray ;
+}
+
+.all-right{
+    color: rgb(160, 160, 160);
+    text-align: center;
+    margin-top: 30px;
+}
 
 
 
@@ -529,7 +580,7 @@ input, select{
 
 @media screen and (max-width:576px) {
     nav{
-        margin-top: 100px;
+        padding: 30px 0px 0px 0px;
     }
     
     .ham-burger{
@@ -597,6 +648,11 @@ input, select{
     }
 
 /* Change Your Habits Responsive */
+
+.section-container{
+    margin: 20px auto;
+}
+
 .section-title{
     font-size: 2rem;
     font-weight: 700;
@@ -611,9 +667,7 @@ input, select{
     width: 300px;
     text-align: center;
 }
-.section-container{
-    margin: 20px auto;
-}
+
 .habits-card-container{
     flex-direction: column;
     gap: 40px;
@@ -794,7 +848,7 @@ input, select{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .blog-image{
@@ -813,6 +867,13 @@ input, select{
     
 }
 
+.footer-container{
+    flex-direction: column;
+    gap: 40px;
+}
+.footer-description{
+    width: 300px;
 
+}
 
 }
