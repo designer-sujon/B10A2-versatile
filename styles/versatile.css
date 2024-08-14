@@ -402,10 +402,83 @@ input, select{
 }
 .btn-bmi{
     margin-left: 620px;
-    position: relative;
-    bottom: 50px;
+    position: absolute;
+    bottom: -1750px;
+}
+/* Meet Our Team Styles */
+.meet-description{
+    margin: 0 auto;
 }
 
+.meet-header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.team-container{
+    background-color: rgba(209, 209, 209, 0.137);
+    border: none;
+    border-radius: 15px;
+    padding: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+
+}
+.row-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+.row-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.team-member{
+    position: relative;
+}
+.trainer-name{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    
+
+}
+
+.trainer-position{
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgb(177, 177, 177);
+    position: absolute;
+    top: 79%;
+    left: 10%;
+    
+
+}
+
+.trainer{
+    width: 320px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+/* Our Blogs */
+.blog-description{
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: rgb(216, 216, 216);
+    font-style: italic;
+}
 
 /* Responsive */
 
@@ -596,7 +669,7 @@ input, select{
     margin-top: 15px;
 }
 .btn-bmi{
-    margin-left: 620px;
+    /* margin-left: 620px; */
     position: relative;
     bottom: -10px;
     right: 575px;
@@ -608,6 +681,64 @@ input, select{
     color: rgba(128, 128, 128, 0.699);
     width: 320px;
     margin-bottom: 15px;
+}
+
+/* Meet our Team */
+.meet-header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.team-container{
+    background-color: rgba(209, 209, 209, 0.137);
+    border: none;
+    border-radius: 15px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+.row-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.row-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.team-member{
+    position: relative;
+}
+.trainer-name{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+
+}
+
+.trainer-position{
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgb(177, 177, 177);
+    position: absolute;
+    top: 79%;
+    left: 10%;
+
+}
+
+.trainer{
+    width: 280px;
+    height: 220px;
+    border: none;
+    border-radius: 10px;
+    
 }
 
 }
