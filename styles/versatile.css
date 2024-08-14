@@ -370,7 +370,7 @@ th, td{
 .calculate-description{
     font-size: 1rem;
     font-weight: 400;
-    color: rgba(128, 128, 128, 0.699);
+    color: rgba(172, 172, 172, 0.699);
     width: 600px;
     margin-bottom: 15px;
 }
@@ -381,8 +381,8 @@ input, select{
     border: none;
     border-radius: 10px;
     padding: 0 20px;
-    color: rgb(175, 175, 175);
-    background-color: rgba(128, 128, 128, 0.274);
+    color: rgb(219, 219, 219);
+    background-color: rgba(150, 150, 150, 0.274);
     font-size: 1rem;
 }
 
@@ -390,7 +390,8 @@ input, select{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    
+    position: relative;
+
 }
 .bmi-sex{
     width: 288px;
@@ -401,8 +402,8 @@ input, select{
     margin-top: 15px;
 }
 .btn-bmi{
-    margin-left: 620px;
     position: absolute;
+    left: 610px;
     bottom: -1750px;
 }
 /* Meet Our Team Styles */
@@ -475,10 +476,54 @@ input, select{
 /* Our Blogs */
 .blog-description{
     margin: 0 auto;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: rgb(216, 216, 216);
     font-style: italic;
 }
+.blog-header{
+    margin-bottom: 50px;
+}
+.blog-container{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.blog-image{
+    border: none;
+    border-radius: 15px;
+    width: 350px;
+    height: 250px;
+}
+
+.blog-date{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(255, 54, 54);
+    margin-bottom: 5px;
+    cursor: pointer;
+    
+}
+.blog-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    width: 300px;
+    font-style: italic;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+  
+.blog-description-2{
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgba(179, 179, 179, 0.555);
+    width: 350px;
+}
+
+
+
 
 /* Responsive */
 
@@ -672,7 +717,7 @@ input, select{
     /* margin-left: 620px; */
     position: relative;
     bottom: -10px;
-    right: 575px;
+    left: 7px;
 }
 
 .calculate-description{
@@ -740,5 +785,34 @@ input, select{
     border-radius: 10px;
     
 }
+
+/* Recent Blog Responsive */
+.blog-header{
+    margin-bottom: 30px;
+}
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.blog-image{
+    border: none;
+    border-radius: 15px;
+    width: 350px;
+    height: 250px;
+}
+
+.blog-date{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(255, 54, 54);
+    margin-bottom: 5px;
+    cursor: pointer;
+    
+}
+
+
 
 }
