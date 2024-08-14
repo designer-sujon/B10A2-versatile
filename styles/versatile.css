@@ -486,7 +486,7 @@ input, select{
 .blog-container{
     display: flex;
     gap: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .blog-image{
